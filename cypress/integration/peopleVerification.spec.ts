@@ -29,12 +29,9 @@ describe('Validate possibility of searching for the Star Warspeople', () => {
     searchPage.verifyNotFound();
   });
 
-  if (!Cypress.env.DEV_JENKINS) {
-  it(`should not be able to find any person with empty space`, () => {
-    cosole.log(Cypress.env.DEV_JENKINS);
+  it.skip(`should not be able to find any person with empty space`, () => {
     searchPage.searchForThePeople(' ');
     searchPage.verifyNotFound();
   });
-  }
 });
 
