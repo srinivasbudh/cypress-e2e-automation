@@ -10,9 +10,9 @@
 
       <div *ngIf="isLoading">Loading...</div>
 
-      <div *ngIf="isNotFound(searchResult, isLoading)">Not found.</div>
+      <div id='notFound' *ngIf="isNotFound(searchResult, isLoading)">Not found.</div>
 
-      <div *ngIf="!isLoading">
+      <div id='searchResults' *ngIf="!isLoading">
         <div *ngIf="searchType === 'people'">
           <div *ngFor="let character of searchResult">
             <app-character [character]="character"></app-character>
