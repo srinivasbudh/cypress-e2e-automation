@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "test": "cypress run",
     "test:e2e": "cypress run --spec cypress/integration/e2e/**.feature",
-    "test:integration": "cypress run  --spec cypress/integration/apiVerification.spec.ts"
+    "test:integration": "cypress run  --spec cypress/integration/apiVerification.spec.ts",
+    "smoke": "cypress-tags run -e TAGS='not @bug'"
   },
   "private": true,
   "dependencies": {
