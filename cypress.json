@@ -1,0 +1,17 @@
+{
+
+  "ignoreTestFiles": "**/*.steps.ts",
+  "defaultCommandTimeout": 10000,
+  "env": {
+    "language": "en",
+    "locale": "en-US"
+  },
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "Star Wars Test suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  }
+}

@@ -30,13 +30,13 @@ Please provide your documentation in the [ASSESSMENT-SOLUTION.MD](./ASSESSMENT-S
 ### The coding
 
 3. In the [README.MD](./README.md) file, you will see the APP Specs, this will be the basis for you test cases. Please read these carefully.
-4. Write test automation scripts using one of the below options (4.1 or 4.2)
+4. Write test automation scripts using below options
 4.1 **using Cucumber and cypress (BDD approach)** that would document the user stories, verify the application features, whilst also including comments on code you write
 4.2  **using mocha and cypress (describe and IT block)**
 5. add test reports support to show test exceution status
 6. Please report any bugs or anomalies you will find
-7. Also note that the sourcecode of the app is running on your machine so you have full access to make your test code as efficient as possible like adding meaning test ids to make selectors easier
-8. In angular.json file. Fix tnt-assignment-e2e block by using cypress builder if you want to run cypess test using command `ng e2e`
+7. Also note that the sourcecode of the app is running on your machine so you have full access to make your test code as efficient as possible
+8. In angular.json file. Fix tnt-assignment-e2e block by using cypress builder if you want to run cypress test using command `ng e2e`
 
 ### Done? -> The feedback
 
