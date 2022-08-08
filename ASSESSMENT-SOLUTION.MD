@@ -79,16 +79,16 @@ npm run test:integration
 ### Bugs
 * Found 3 Bugs and listed them under [Issues][3] in the git repository
 * Also have 1 remark which might be a bug also listed it under [Issues][3]
+* ` I have implemented 2 failing tests for one of the bugs, skipped one of them using it.skip. So test execution has 1 failure testcase and 1 pending test case`
 
 # Assessment Solution
 
 * The whole solution was done in 5 hours including documentation and bug reporting. Also spent ~1 hour on cleanup
-* Additionally, was implemented Github Actions workflow for continues testing
 * Cleaned-up the framework from unused dependencies and frameworks (Karma, e.g)
 * The scenarios for the Planets validations are developed in Cucumber using Gherkin approach
 * The scenarios for the People validations are developed using Jasmine parametrized approach
 * The scenarios for poples API are also developed using Cypress & Jasmine
-
+* Additionally,CI/CD pipeline is implemented using Github Actions workflow for continues testing
 
 [1]: https://git-scm.com/downloads
 [2]: https://nodejs.org/en/
